@@ -1,0 +1,124 @@
+/* style.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {list-style-type: none;}
+a {text-decoration: none;}
+
+body {
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.8em;
+    color: #444;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.img-responsive {width: 100%;}
+
+#main {
+    width: 100%;
+    height: 100vh; /* 디바이스 높이 100% */
+    background: #ccc;
+    background-image: url(../images/title.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#main > .point {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 40px; left: 30px;
+    width: 70px; height: 90px;
+    border-bottom: 2px solid #fff;
+}
+#main > .point > p {
+    margin-bottom: 20px;
+}
+
+#main > .point_text {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 140px; left: 36px;
+}
+
+#main > .title_text {
+    /* 배색 : #b4dbdc */
+    background: rgba(255, 255, 255, 0.61);
+    color: #2785aa;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 1em;
+    line-height: 1.4em;
+}
+#main > .title_text > h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.address {margin-bottom: 1em;}
+.name {font-size: large;}
+
+/* invitation 영역 */
+#invitation {
+    margin: 50px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tree {
+    width: 30px;
+}
+
+#invitation .phone {
+    border-top: 2px solid  #2994be;
+    border-bottom: 2px solid  #2994be;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#invitation .phone .info span {
+    font-weight: 700;
+}
+.info a {
+    color:  #71a2b6;
+}
+p, i {
+    vertical-align: middle;
+}
+
+/* 갤러리 */
+#gallery {
+    background: #71a2b6;
+    padding: 50px 0;
+}
+#gallery .small_img li {padding: 0;}
+
+#gallery .small_img li:nth-child(4) {clear: both;}
+
+/* 오시는 길 */
+#location {
+    padding-top: 40px;
+}
+
+#location > .l_text > p {
+    width: 280px;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+}
+
+#location > .l_text {
+    width: 100%; height: 80px;
+    background: #71a2b6;
+}
